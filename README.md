@@ -1,9 +1,9 @@
 # MDBook Link-Check
 
-[![Continuous integration](https://github.com/Michael-F-Bryan/mdbook-linkcheck/workflows/Continuous%20integration/badge.svg?branch=master)](https://github.com/Michael-F-Bryan/mdbook-linkcheck/actions)
+[![Continuous integration](https://github.com/Unity-Billal-mesloub/mdbook-linkcheck/workflows/Continuous%20integration/badge.svg?branch=master)](https://github.com/Unity-Billal-mesloub/mdbook-linkcheck/actions)
 [![Crates.io](https://img.shields.io/crates/v/mdbook-linkcheck.svg)](https://crates.io/crates/mdbook-linkcheck)
 [![Docs.rs](https://docs.rs/mdbook-linkcheck/badge.svg)](https://docs.rs/mdbook-linkcheck/)
-[![license](https://img.shields.io/github/license/michael-f-bryan/mdbook-linkcheck.svg)](https://github.com/Michael-F-Bryan/mdbook-linkcheck/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/michael-f-bryan/mdbook-linkcheck.svg)](https://github.com/Unity-Billal-mesloub/mdbook-linkcheck/blob/main/LICENSE)
 
 A backend for `mdbook` which will check your links for you. For use alongside
 the built-in HTML renderer.
@@ -23,7 +23,7 @@ directory:
 
 ```console
 mkdir -p mdbook-linkcheck && cd "$_" && \
-  curl -L https://github.com/Michael-F-Bryan/mdbook-linkcheck/releases/latest/download/mdbook-linkcheck.x86_64-unknown-linux-gnu.zip -o mdbook-linkcheck.zip && \
+  curl -L https://github.com/Unity-Billal-mesloub/mdbook-linkcheck/releases/latest/download/mdbook-linkcheck.x86_64-unknown-linux-gnu.zip -o mdbook-linkcheck.zip && \
   unzip "$_" && \
   chmod +x mdbook-linkcheck && \
   export PATH=$PWD:$PATH && \
@@ -164,7 +164,7 @@ The [michaelfbryan/mdbook-docker-image][image] docker image is also available
 on Docker hub and comes with the latest version of `mdbook` and
 `mdbook-linkcheck` pre-installed.
 
-[releases]: https://github.com/Michael-F-Bryan/mdbook-linkcheck/releases
+[releases]: https://github.com/Unity-Billal-mesloub/mdbook-linkcheck/releases
 [mdbook-ci]: https://rust-lang.github.io/mdBook/continuous-integration.html
-[Michael-F-Bryan]: https://github.com/Michael-F-Bryan
+[Michael-F-Bryan]: https://github.com/Unity-Billal-mesloub
 [image]: https://hub.docker.com/r/michaelfbryan/mdbook-docker-image
